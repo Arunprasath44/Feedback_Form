@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<title>Task</title>
+<head>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link href="./task.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="header">
+<div class = "container">
+	<div class = "row">
+		<div class = "col-md-3">
+		</div>
+		<div class = "col-md-6">
+			<div class="content">
+				<h1 id="title"> Feedback form </h1>
+				<div class="form-group" >
+				<input type="text" class="form-control inp" id="inp1" placeholder=" Name here"></input> </br> </br>
+				<textarea class="form-control inp" rows="5"  id="inp2" placeholder=" Feedback here"></textarea>
+				</div>
+				<button id="submit_btn" class="btn1 btn btn-primary btn-md" onclick="fn_main()">Submit</button> 
+				<button id="update_btn" class="btn2 btn btn-primary btn-md" onclick="fn_update()" style="display:none">Update</button> 
+			</div>
+		</div>
+		<div class = "col-md-3">
+		</div>
+	</div>
+</div>
+</div>
+<div class= "out">
+	<div class= "container" style="margin-left: 0px;margin-right: 0px;">
+		<div class="row">
+			<div class="col-md-2">
+				
+			</div>
+			<div class="col-md-8">
+				<div id="output" >
+				</div>
+			</div>
+			<div class="col-md-2">
+				
+			</div>
+		</div>
+	</div>		
+</div>
+
+
+<script src="task.js"></script>
+</body>
+</html>
+
